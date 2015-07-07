@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jonathan/code/Android/android-launchschedule/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/jonathan/code/Android/android-launchschedule/app/build/intermediates/pre-dexed/debug/classes-e8c4d1a3802d749301d60e502fb136a766860a35.jar" />
+    </item>
+    <item
+        jar="/Users/jonathan/code/Android/android-launchschedule/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/jonathan/code/Android/android-launchschedule/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-b80c17fd1f010114b1380f07e51144c2826f4639.jar" />
+    </item>
+    <item
+        jar="/Users/jonathan/code/Android/android-launchschedule/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/jonathan/code/Android/android-launchschedule/app/build/intermediates/pre-dexed/debug/classes-43acced9146af8d7c95a54427e78ad62418b0981.jar" />
+    </item>
+    <item
+        jar="/Users/jonathan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/jonathan/code/Android/android-launchschedule/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-2697ef7ab260e01a71661913451e3a147516a305.jar" />
+    </item>
+
+</items>

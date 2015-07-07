@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="0dip"
+    android:paddingBottom="10dip">
+
+    <TextView
+        android:id="@+id/firstLine"
+        android:layout_width="fill_parent"
+        android:layout_height="28dip"
+        android:gravity="center_vertical"
+        android:text="Mission Name"
+        android:textSize="18dip"
+        android:paddingTop="5dip"
+        android:textColor="#ff343434"
+        />
+
+    <TextView
+        android:id="@+id/secondLine"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:ellipsize="end"
+        android:singleLine="false"
+        android:text="Description is a long piece of text that needs to wrap sometimes when things go wrong and blah sdfijs sfisoijfo sdfjsodifj sdoijsdfoijs sdoijsd idj fidgoijdf doijdfogd fgidjfidjgdi df dfg "
+        android:textSize="12sp"
+        android:lines="2"
+        android:layout_below="@id/firstLine"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="16dip"
+        android:weightSum="2"
+        android:layout_below="@id/secondLine"
+        android:paddingTop="4dip"
+        android:id="@+id/dateRow"
+        >
+
+        <TextView
+            android:id="@+id/dateLine"
+            android:layout_width="0dp"
+            android:layout_height="16dip"
+            android:text="GMT Date"
+            android:textSize="10sp"
+            android:gravity="left"
+            android:textColor="#ff232323"
+            android:layout_weight="1"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/dateLocal"
+            android:text="Local Date"
+            android:gravity="right"
+            android:textSize="10sp"
+            android:textColor="#ff232323"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
